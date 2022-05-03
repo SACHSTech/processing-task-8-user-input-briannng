@@ -32,15 +32,15 @@ public class Sketch extends PApplet {
    */
   public void draw() {
     if(keyPressed) {	
-   // purple background   
+    // purple background   
     if (key == 'p') {
       background(102, 0, 153);
     } 
-  // blue background
+    // blue background
     else if (key == 'b') {
       background(51, 153, 255);
     } 
-  // orange background
+    // orange background
     else if (key == 'o') {
       background(255, 153, 0);
     }
@@ -85,11 +85,11 @@ public class Sketch extends PApplet {
     ellipse(mouseX, mouseY, 20, 20);
     }
   public void mouseReleased(){
-    // house
+    // House
     fill(255, 255, 153);
     rect(100, 155, 200, 200);
 
-    //windows
+    // Window
     fill(255, 255, 255);
     rect(110, 280, 50, 50);
 
